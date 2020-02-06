@@ -5,6 +5,7 @@
   "author": "Rickson <rickson.simoes@hotmail.com>",
   "license": "MIT",
   "dependencies": {
-    "graphql-yoga": "^1.18.3"
+    "graphql-yoga": "^1.18.3",
+    "mongoose": "^5.8.11"
   }
 }
