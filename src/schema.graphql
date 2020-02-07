@@ -6,7 +6,7 @@ type ContaBanco {
 
 type Query {
   contas: [ContaBanco!]!
-  saldo(conta: Int!) : ContaBanco
+  conta(conta: Int!) : ContaBanco
 }
 
 type Mutation {

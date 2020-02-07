@@ -3,7 +3,7 @@ const Contas = require('./Conta');
 module.exports = {
   Query: {
     contas: () => Contas.find(),
-    saldo: (_, { conta }) => Contas.findOne({ conta })
+    conta: (_, { conta }) => Contas.findOne({ conta })
   },
 
   Mutation: {
