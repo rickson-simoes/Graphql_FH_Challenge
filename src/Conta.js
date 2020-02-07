@@ -5,4 +5,4 @@ const ContaSchema = new mongoose.Schema({
   saldo: Number
 })
 
-module.exports = mongoose.model('Contas', ContaSchema);
+module.exports = mongoose.model('Conta', ContaSchema);
