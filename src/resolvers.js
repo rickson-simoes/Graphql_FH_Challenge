@@ -7,11 +7,18 @@ module.exports = {
   },
 
   Mutation: {
-    criarConta: (_, {conta, saldo}) => Contas.create({ conta, saldo }),
+    criarConta: async (_, {conta, saldo}) => {    
+      const procuraConta = await Contas.findOne({ conta });
+      
+      if (procuraConta) {      
+        throw new Error(
+          "Essa conta já existe."
+        )};
+        
+      return Contas.create({ conta, saldo })
+    },
 
     depositar: async (_, {conta, valor}) => {      
-      var { conta } = await Contas.findOne({ conta });      
-
       const insercaoValor = await Contas.findOneAndUpdate({ conta }, { 
         $inc: { saldo: valor }
       });
