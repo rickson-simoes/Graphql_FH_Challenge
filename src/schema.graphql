@@ -1,7 +1,7 @@
 type ContaBanco {
   id: ID!
   conta: Int!
-  saldo: Int!
+  saldo: Int
 }
 
 type Query {
@@ -10,7 +10,7 @@ type Query {
 }
 
 type Mutation {
-  criarConta(conta: Int!, saldo: Int): ContaBanco
+  criarConta(conta: Int!, saldo: Int!): ContaBanco
   depositar(conta: Int!, valor: Int!): ContaBanco
   sacar(conta: Int!, valor: Int!): ContaBanco
 }
