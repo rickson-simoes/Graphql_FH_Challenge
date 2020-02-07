@@ -1,14 +1,14 @@
-const contas = [
-  {id:1, conta:1234, saldo:4500}
-]
+const Contas = require('./Conta');
 
 module.exports = {
   Query: {
-    contas: () => contas,
-    saldo: () => contas[0]
+    contas: () => Contas.find(),
+    saldo: (_, { conta }) => Contas.findOne({conta})
   },
 
   Mutation: {
-    criarConta: () => contas[0]
+    criarConta: (_, {conta, saldo}) => Contas.create({conta, saldo}),
+    depositar: (_, {conta, valor}) => Contas.findOneAndUpdate({conta}, { $inc: { saldo: valor }}).exec(),
+    sacar: (_, {conta, valor}) => Contas.findOneAndUpdate({conta}, { $inc: { saldo: -valor }}).exec(),
   },
 }
