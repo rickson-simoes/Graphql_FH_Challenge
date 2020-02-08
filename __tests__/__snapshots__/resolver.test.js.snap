@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Retrieves the shop items in default order 1`] = `Promise {}`;
