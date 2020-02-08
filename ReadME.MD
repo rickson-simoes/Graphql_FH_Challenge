@@ -13,8 +13,6 @@
 - Executar a seed do mongodb (Na aplicação possui uma mutation para criar conta também, se necessário.) `yarn seeds`
 - Executar o servidor `yarn start` onde é executado em *http://localhost:4000/*;
 
-[![Query1](https://raw.githubusercontent.com/rickson-simoes/Graphql_FH_Challenge/master/imgs_exemplo/img1.png "img1")](https://raw.githubusercontent.com/rickson-simoes/Graphql_FH_Challenge/master/imgs_exemplo/img1.png "img1")
-
   1 - Query para verificar todas as contas: <br>
   `query {
   contas {
@@ -22,8 +20,8 @@
     saldo
   }
 }`
+[![Query1](https://raw.githubusercontent.com/rickson-simoes/Graphql_FH_Challenge/master/imgs_exemplo/img1.png "img1")](https://raw.githubusercontent.com/rickson-simoes/Graphql_FH_Challenge/master/imgs_exemplo/img1.png "img1")
 
-[![Query2](https://raw.githubusercontent.com/rickson-simoes/Graphql_FH_Challenge/master/imgs_exemplo/img2.png "img2")](https://raw.githubusercontent.com/rickson-simoes/Graphql_FH_Challenge/master/imgs_exemplo/img2.png "img2")
 
   2 - Query para verificar uma conta: <br>
   `query {
@@ -32,8 +30,8 @@
     saldo
   }
 }`
+[![Query2](https://raw.githubusercontent.com/rickson-simoes/Graphql_FH_Challenge/master/imgs_exemplo/img2.png "img2")](https://raw.githubusercontent.com/rickson-simoes/Graphql_FH_Challenge/master/imgs_exemplo/img2.png "img2")
 
-[![Query3](https://raw.githubusercontent.com/rickson-simoes/Graphql_FH_Challenge/master/imgs_exemplo/img3.png "img3")](https://raw.githubusercontent.com/rickson-simoes/Graphql_FH_Challenge/master/imgs_exemplo/img3.png "img3")
 
   3 - Mutation para sacar dinheiro: <br>
   `mutation {
@@ -42,8 +40,8 @@
     saldo
   }
 }`
+[![Query3](https://raw.githubusercontent.com/rickson-simoes/Graphql_FH_Challenge/master/imgs_exemplo/img3.png "img3")](https://raw.githubusercontent.com/rickson-simoes/Graphql_FH_Challenge/master/imgs_exemplo/img3.png "img3")
 
-[![Query4](https://raw.githubusercontent.com/rickson-simoes/Graphql_FH_Challenge/master/imgs_exemplo/img4.png "img4")](https://raw.githubusercontent.com/rickson-simoes/Graphql_FH_Challenge/master/imgs_exemplo/img4.png "img4")
 
   4 - Mutation para depositar dinheiro: <br>
   `mutation {
@@ -52,8 +50,8 @@
     saldo
   }
 }`
+[![Query4](https://raw.githubusercontent.com/rickson-simoes/Graphql_FH_Challenge/master/imgs_exemplo/img4.png "img4")](https://raw.githubusercontent.com/rickson-simoes/Graphql_FH_Challenge/master/imgs_exemplo/img4.png "img4")
 
-[![Query5](https://raw.githubusercontent.com/rickson-simoes/Graphql_FH_Challenge/master/imgs_exemplo/img5.png "img5")](https://raw.githubusercontent.com/rickson-simoes/Graphql_FH_Challenge/master/imgs_exemplo/img5.png "img5")
 
   5 - Mutation para criar conta: <br>
   `mutation {
@@ -62,12 +60,22 @@
     saldo
   }
 }`
+[![Query5](https://raw.githubusercontent.com/rickson-simoes/Graphql_FH_Challenge/master/imgs_exemplo/img5.png "img5")](https://raw.githubusercontent.com/rickson-simoes/Graphql_FH_Challenge/master/imgs_exemplo/img5.png "img5")
 
 
+*✔️ Obrigatoriedade bem sucedida ✔️*
+- API desenvolvida em Node.js
+- API em GraphQL.
+- Banco de dados: Mongodb .
+- Entregue em um repositório do GitHub.
+- Scripts do Docker - Run image.
 
-**Obrigatoriedade mal sucedida*
 
-- Executar os testes `yarn test`
+*❌ Obrigatoriedade mal sucedida ❌*
+
+- O projeto deve ter testes unitários com cobertura de testes >= a 85% 
+
+*Problemas em executar os testes `yarn test`*
 
 *Os testes estão localizados em: `__tests__/resolver.test.js`*
 
