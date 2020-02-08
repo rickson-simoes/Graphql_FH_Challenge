@@ -22,4 +22,4 @@
 
 *Os testes estão localizados em: `__tests__/resolver.test.js`*
 
-A configuração de testes está feita, porém não consegui realizar o procedimento de testes, infelizmente não obtive sucesso.
+A configuração de testes está feita, porém não consegui realizar o procedimento de testes, infelizmente não obtive sucesso
