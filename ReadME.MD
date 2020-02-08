@@ -70,7 +70,7 @@
 - Entregue em um repositório do GitHub.
 - Scripts do Docker - Run image.
 - Cenários: 
- *conseguir depositar, conseguir sacar, erro ao sacar mais do que já tem, erro ao criar conta que já possui na api*
+ *Verificar saldo de conta, verificar todas as contas, conseguir depositar, conseguir sacar, erro ao sacar mais do que já tem, erro ao criar conta que já possui na api*
 
 
 
