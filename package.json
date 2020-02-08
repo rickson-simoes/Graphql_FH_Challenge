@@ -7,10 +7,17 @@
   "dependencies": {
     "graphql-yoga": "^1.18.3",
     "mongoose": "^5.8.11",
-    "mongoose-seed": "^0.6.0"
+    "mongoose-seed": "^0.6.0",
+    "request": "^2.88.0",
+    "supertest": "^4.0.2"
   },
   "scripts": {
-    "seeds" : "node src/seed/seed",
-    "start" : "node src/server"
+    "seeds": "node src/seed/seed",
+    "start": "node src/server",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^25.1.2",
+    "jest": "^25.1.0"
   }
 }

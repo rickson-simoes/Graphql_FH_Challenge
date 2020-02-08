@@ -14,4 +14,6 @@ const server = new GraphQLServer({
   resolvers
 });
 
-server.start();
+server.start({
+  endpoint: '/tests'
+});
