@@ -63,15 +63,18 @@
 [![Query5](https://raw.githubusercontent.com/rickson-simoes/Graphql_FH_Challenge/master/imgs_exemplo/img5.png "img5")](https://raw.githubusercontent.com/rickson-simoes/Graphql_FH_Challenge/master/imgs_exemplo/img5.png "img5")
 
 
-*✔️ Obrigatoriedade bem sucedida ✔️*
+## *✔️ Obrigatoriedade bem sucedida ✔️*
 - API desenvolvida em Node.js
 - API em GraphQL.
 - Banco de dados: Mongodb .
 - Entregue em um repositório do GitHub.
 - Scripts do Docker - Run image.
+- Cenários: 
+ *conseguir depositar, conseguir sacar, erro ao sacar mais do que já tem, erro ao criar conta que já possui na api*
 
 
-*❌ Obrigatoriedade mal sucedida ❌*
+
+## *❌ Obrigatoriedade mal sucedida ❌*
 
 - O projeto deve ter testes unitários com cobertura de testes >= a 85% 
 
