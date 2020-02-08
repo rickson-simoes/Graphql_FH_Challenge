@@ -15,7 +15,7 @@ module.exports = {
           "Essa conta já existe."
         )};
         
-      return Contas.create({ conta, saldo })
+      return Contas.create({ conta, saldo });
     },
 
     depositar: async (_, {conta, valor}) => {      
